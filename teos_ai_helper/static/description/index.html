@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Odoo App Instructions</title>
-    <!-- Odoo typically includes Bootstrap by default -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -24,6 +22,11 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
         }
+        h1 {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
         p {
             font-size: 16px;
             line-height: 1.5;
@@ -37,39 +40,25 @@
         li {
             margin-bottom: 10px;
         }
-        img {
-            display: block;
-            max-width: 100%;
-            height: auto;
-            margin-top: 10px;
-            border-radius: 5px;
-        }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Title styled as an Odoo button -->
-        <button type="button" class="btn btn-primary btn-lg btn-block mb-4">TEOS AI Helper</button>
+        <h1>TEOS AI Helper</h1>
+        <p>This is an experimental addon, That relies on odoo AI server at 'https://olg.api.odoo.com' to answer question about the database.</p>
 
-        <p>This is an experimental addon, that relies on Odoo AI server to answer questions about the Odoo database.</p>
-
-        <!-- Informations header styled as an Odoo button -->
-        <button type="button" class="btn btn-secondary btn-lg btn-block mb-4">Informations</button>
-
+        <h2>Informations: </h2>
         <ul>
             <li>The AI prompt and models included in the query sent can be modified in the general settings:
-                <img src="/teos_ai_helper/static/src/img/instructions.png" alt="Instruction Image">
+                   <img src="instructions.png" alt="Instruction Image">
             </li>
-            <li>Using the AI models chosen, a table definition is sent with the prompt to help the AI better understand our database structure.</li>
-            <li>This is just an experimental addon. The AI might hallucinate in some cases and give wrong answers.</li>
+            <br/>
+            <li>Using the the AI models chosen a table definition is sent with the prompt, in order to help the AI better understand our database structure.</li>
+            <br/>
+            <li>This is just an experimental addon, The AI might hallucinate in some cases and give wrong answers.</li>
+            <br/>
             <li>Please contact us with any ideas or feedback.</li>
         </ul>
     </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
