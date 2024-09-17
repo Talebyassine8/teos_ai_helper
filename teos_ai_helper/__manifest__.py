@@ -1,6 +1,6 @@
 {
     'name': 'TEOS AI Helper',
-    'author': 'Taleb Yassine',
+    'author': 'TEOS Tangier',
     'category': 'Custom',
     'website': 'https://www.teos.com',
     'licence': 'AGPL-3',
