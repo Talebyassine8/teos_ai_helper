@@ -15,7 +15,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f7f7f7;
+            background-color: #f4f4f4;
         }
         .container {
             max-width: 600px;
@@ -23,25 +23,6 @@
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
-        }
-        .header-box {
-            background-color: #f5f5f5; /* Light gray background */
-            color: #5A5A5A; /* Odoo dark gray text */
-            padding: 15px;
-            border-left: 5px solid #875A7B; /* Odoo purple accent */
-            margin-bottom: 20px;
-            font-size: 20px;
-            font-weight: bold;
-        }
-        /* Smaller header for Informations */
-        .small-header-box {
-            background-color: #f5f5f5; /* Same background as other header */
-            color: #5A5A5A; /* Dark gray text */
-            padding: 8px; /* Smaller padding */
-            border-left: 3px solid #875A7B; /* Slightly thinner border */
-            margin-bottom: 15px;
-            font-size: 16px; /* Smaller font size */
-            font-weight: bold;
         }
         p {
             font-size: 16px;
@@ -67,13 +48,13 @@
 </head>
 <body>
     <div class="container">
-        <!-- Title styled as an Odoo header box -->
-        <div class="header-box">TEOS AI Helper</div>
+        <!-- Title styled as an Odoo button -->
+        <button type="button" class="btn btn-primary btn-lg btn-block mb-4">TEOS AI Helper</button>
 
         <p>This is an experimental addon, that relies on Odoo AI server to answer questions about the Odoo database.</p>
 
-        <!-- Smaller Informations header -->
-        <div class="small-header-box">Informations</div>
+        <!-- Informations header styled as an Odoo button -->
+        <button type="button" class="btn btn-secondary btn-lg btn-block mb-4">Informations</button>
 
         <ul>
             <li>The AI prompt and models included in the query sent can be modified in the general settings:
