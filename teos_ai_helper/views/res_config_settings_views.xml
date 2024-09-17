@@ -12,7 +12,7 @@
                         <setting id="ai_info_setting_1" string="AI Prompt"
                                  help="This is the prompt used when sending a question to the odoo ai server,
                                   table names and definitions of the ai models are automatically added to the prompt message.">
-                            <field name="ai_prompt"/>
+                            <field name="ai_prompt" height="100px"/>
                         </setting>
                          <setting id="ai_info_setting_2" string="Data tables" info="odoo models who's info will be automatically included in the search">
                             <field name="ai_model_ids" widget="many2many_tags"/>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Odoo App Instructions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1 {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        ul {
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TEOS AI Helper</h1>
+        <p>This is an experimental addon, that relies on odoo AI server to answer question about the odoo db.</p>
+
+        <h2>Informations</h2>
+        <ul>
+            <li>The AI prompt and models included in the query sent can be modified in the general settings:
+                            <img src="/teos_ai_helper/static/src/img/instructions.png" alt="Instruction Image">
+            </li>
+            <li>Using the the AI models chosen a table definition is sent with the prompt, in order to help the AI better understand our database structure.</li>
+            <li>This is just an experimental addon, The AI might hallucinate in some cases and give wrong answers.</li>
+            <li>Please contact us with any ideas or feedback.</li>
+        </ul>
+    </div>
+</body>
+</html>
