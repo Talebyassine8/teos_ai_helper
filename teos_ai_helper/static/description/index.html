@@ -21,11 +21,19 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
         }
-        .container h1 {
-            font-size: 28px;
-            color: #4a4a4a; /* Odoo dark gray */
-            margin-bottom: 20px;
+        .title-container {
+            background-color: #87CEEB; /* Sky Blue */
+            color: #ffffff; /* White text */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
+            margin-bottom: 20px;
+        }
+        .title-container h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 500;
         }
         .container h2 {
             font-size: 20px;
@@ -60,7 +68,9 @@
 </head>
 <body>
     <div class="container">
-        <h1 style='font-family: "Odoo Saas Serif", Arial, sans-serif;'>TEOS AI Helper</h1>
+        <div class="title-container">
+            <h1>TEOS AI Helper</h1>
+        </div>
         <p>This is an experimental addon that relies on the Odoo AI server at <a href="https://olg.api.odoo.com" target="_blank">https://olg.api.odoo.com</a> to answer questions about the database.</p>
 
         <h2>Informations</h2>
