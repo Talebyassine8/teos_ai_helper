@@ -3,60 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Odoo App Instructions</title>
+    <title>TEOS AI Helper - Addon Description</title>
+    <!-- Include Odoo's CSS for consistency -->
+    <link rel="stylesheet" href="/web/static/src/css/odoo.css">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f4f4f4;
+            background-color: #f7f7f7;
         }
         .container {
-            max-width: 600px;
-            background-color: white;
+            max-width: 800px;
+            background-color: #ffffff;
             padding: 20px;
+            margin: 20px auto;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
+            border-radius: 8px;
         }
-        h1 {
-            font-size: 24px;
+        .container h1 {
+            font-size: 28px;
+            color: #4a4a4a; /* Odoo dark gray */
+            margin-bottom: 20px;
             text-align: center;
-            margin-bottom: 10px;
+        }
+        .container h2 {
+            font-size: 20px;
+            color: #5A5A5A; /* Odoo dark gray */
+            margin-bottom: 15px;
+            border-bottom: 2px solid #875A7B; /* Odoo purple */
+            padding-bottom: 5px;
         }
         p {
             font-size: 16px;
-            line-height: 1.5;
+            line-height: 1.6;
+            color: #333333;
             margin-bottom: 20px;
             text-align: center;
         }
         ul {
             padding-left: 20px;
             list-style-type: disc;
+            color: #333333;
         }
         li {
             margin-bottom: 10px;
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+            border-radius: 4px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>TEOS AI Helper</h1>
-        <p>This is an experimental addon, That relies on odoo AI server at 'https://olg.api.odoo.com' to answer question about the database.</p>
+        <p>This is an experimental addon that relies on the Odoo AI server at <a href="https://olg.api.odoo.com" target="_blank">https://olg.api.odoo.com</a> to answer questions about the database.</p>
 
-        <h2>Informations: </h2>
+        <h2>Informations</h2>
         <ul>
             <li>The AI prompt and models included in the query sent can be modified in the general settings:
-                   <img src="instructions.png" alt="Instruction Image">
+                <img src="instructions.png" alt="Instruction Image">
             </li>
-            <br/>
-            <li>Using the the AI models chosen a table definition is sent with the prompt, in order to help the AI better understand our database structure.</li>
-            <br/>
-            <li>This is just an experimental addon, The AI might hallucinate in some cases and give wrong answers.</li>
-            <br/>
+            <li>Using the AI models chosen, a table definition is sent with the prompt to help the AI better understand our database structure.</li>
+            <li>This is just an experimental addon. The AI might hallucinate in some cases and give incorrect answers.</li>
             <li>Please contact us with any ideas or feedback.</li>
         </ul>
     </div>
