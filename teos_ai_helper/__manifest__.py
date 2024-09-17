@@ -27,5 +27,6 @@
             'teos_ai_helper/static/src/ai_helper/user_service.js',
         ],
     },
+    'images': ['static/description/gif_demo.gif'],
     'installable': True,
 }
