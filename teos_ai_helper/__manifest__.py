@@ -3,7 +3,7 @@
     'author': 'TEOS Tangier',
     'category': 'Custom',
     'website': 'https://teos.odoo.com/',
-    'licence': 'AGPL-3',
+    'license': 'AGPL-3',
     'summary': "TEOS AI Helper",
     "version": "17.0.1.1.0",
     'description': """
