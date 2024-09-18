@@ -44,14 +44,14 @@
                                             </div>
                                             <t t-else="">
                                                 <t t-out="formatContent(message.text)"/>
-                                                <t t-if="message.attachments">
-                                                    <div class="d-flex position-relative flex-shrink-0 mw-100 mb-1 me-1"
-                                                                                             tabindex="0"  role="menuitem"
-                                                                                             data-mimetype="image/png">
-                                                        <img class="img img-fluid my-0 mx-auto"
-                                                         t-attf-src="data:image/png;base64,{{ message.attachments }}" style="max-width: min(100%, 1920px); max-height: 300px;"/>
-                                                    </div>
-                                                </t>
+                                                <!--                                                <t t-if="message.attachments">-->
+                                                <!--                                                    <div class="d-flex position-relative flex-shrink-0 mw-100 mb-1 me-1"-->
+                                                <!--                                                                                             tabindex="0"  role="menuitem"-->
+                                                <!--                                                                                             data-mimetype="image/png">-->
+                                                <!--                                                        <img class="img img-fluid my-0 mx-auto"-->
+                                                <!--                                                         t-attf-src="data:image/png;base64,{{ message.attachments }}" style="max-width: min(100%, 1920px); max-height: 300px;"/>-->
+                                                <!--                                                    </div>-->
+                                                <!--                                                </t>-->
                                             </t>
                                         </div>
                                     </div>

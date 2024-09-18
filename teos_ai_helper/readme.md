@@ -7,6 +7,7 @@ included in the AI search
 ## History
 * features introduced in version 17.0.1.1.0: Initial commit
 * features introduced in version 17.0.1.1.1: Remove uneeded file
+* features introduced in version 17.0.1.1.2: Added need dependency/ changes in layout
 
 ## Maintainer
 This module is maintained by Hucke Media Gmbh & Co KG.

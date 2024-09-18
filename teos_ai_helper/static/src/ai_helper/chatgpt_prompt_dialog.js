@@ -48,8 +48,8 @@ export class ChatGPTPromptDialog2 extends ChatGPTPromptDialog {
             const messageIndex = this.state.messages.findIndex(m => m.id === messageId);
             this.state.messages[messageIndex] = {
                 author: 'assistant',
-                text: content[0],
-                attachments: content[1],
+                text: content,
+                //attachments: content[1],
                 isError,
                 id: messageId,
             };

@@ -5,12 +5,13 @@
     'website': 'https://teos.odoo.com/',
     'license': 'AGPL-3',
     'summary': "TEOS AI Helper",
-    "version": "17.0.1.1.1",
+    "version": "17.0.1.1.2",
     'description': """
     """,
     'depends': [
         'base_setup',
         'web_editor',
+        'mail'
     ],
     'data': ['views/res_config_settings_views.xml',
              'security/base_groups.xml'],
