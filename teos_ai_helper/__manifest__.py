@@ -5,7 +5,7 @@
     'website': 'https://teos.odoo.com/',
     'license': 'AGPL-3',
     'summary': "TEOS AI Helper",
-    "version": "17.0.1.1.0",
+    "version": "17.0.1.1.1",
     'description': """
     """,
     'depends': [

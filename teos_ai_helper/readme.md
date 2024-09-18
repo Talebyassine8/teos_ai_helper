@@ -5,7 +5,8 @@ In the general settings , You can set the ai prompt and chose the ai models that
 included in the AI search
 
 ## History
-* features introduced in version 17.0.0.1
+* features introduced in version 17.0.1.1.0: Initial commit
+* features introduced in version 17.0.1.1.1: Remove uneeded file
 
 ## Maintainer
 This module is maintained by Hucke Media Gmbh & Co KG.
