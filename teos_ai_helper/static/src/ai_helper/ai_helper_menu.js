@@ -90,4 +90,4 @@ export const systrayItem = {
     },
 };
 
-registry.category("systray").add("AIHelperMenu", systrayItem, { sequence: 1 });
+registry.category("systray").add("AIHelperMenu", systrayItem, { sequence: 99 });
